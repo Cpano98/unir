@@ -44,4 +44,28 @@ Estudio de métodos y herramientas que se pueden utilizar para producir **softwa
 8. **Llevar a cabo las pruebas** necesarias para poder validar y verificar el software.
 9. **Revisar y mejorar los sistemas software** sin perder la integridad conceptual y manteniendo actualizada toda la documentación asociada al proyecto.
 
+## Principios básicos:
 
+1. **Público.** Los ingenieros de software deberán actuar de manera consistente en bien del interés general.
+2. **Cliente y contratista.** Los ingenieros de software deberán actuar de tal modo que sea del mejor interés para sus clientes y contratistas, en coherencia con el interés general.
+3. **Producto.** Los ingenieros de software deberán garantizar que sus productos y las modificaciones asociadas a ellos cumplen con el mayor número posible de los mejores estándares profesionales.
+4. **Juicio.** Los ingenieros de software deberán mantener la integridad e independencia en su valoración profesional.
+5. **Gestión.** Los gestores y líderes en ingeniería de software suscribirán y promoverán un enfoque ético en toda gestión de desarrollo y mantenimiento de software.
+6. **Profesión.** Los ingenieros de software deberán realizar avances en lo que se refiere a integridad y reputación de la profesión, en coherencia con el interés general.
+7. **Compañeros.** Los ingenieros de software serán justos y apoyarán a sus compañeros de profesión.
+8. **Persona.** Los ingenieros de software deberán participar en el aprendizaje continuo de la práctica de su profesión y promoverán un comportamiento ético en la práctica de la misma.
+
+## La crisis del Software:
+
+1. **Planificaciones imprecisas** que difícilmente se llegan a cumplir, superando los plazos de entrega en la mayoría de los proyectos software.
+2. Los **costes** del proyecto suelen superar con creces el presupuesto inicial.
+3. Índices de **productividad** muy bajos.
+4. **Clientes insatisfechos** con las soluciones implementadas, ya que no satisfacen sus necesidades.
+5. La **calidad** del software es inaceptable.
+6. El producto software desarrollado resulta muy **difícil de mantener.**
+7. El producto software **no está integrado** o ni siquiera se encuentra alineado con el negocio de la compañía.
+8. El departamento de las tecnologías de la información **(TI)** suele verse como un freno al negocio.
+
+**La dificultad para satisfacer las necesidades del cliente (¿problemas de incomunicación?), unida a la complejidad del software y a sus constantes cambios y evolución, tanto en fase de desarrollo como una vez entregado, hacen de la tarea de desarrollar productos software un proceso arduo y muy costoso (una gran parte del presupuesto en informática se debe a las modificaciones en el software ya implementado y desplegado).**
+
+## Proceso de desarrollo de Software:
