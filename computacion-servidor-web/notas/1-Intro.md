@@ -12,6 +12,7 @@ No son un lenguaje de programación -> Permiten que puedan escribirse en cualqui
 # PHP
 
 PHP Hypertext Preprocessor
+
 ```
 <?PHP
 print("Hello World!");
@@ -19,6 +20,7 @@ print("Hello World!");
 ```
 
 ### Notas:
+
 - Para que el servidor sepa que la página tiene código PHP, el fichero debe tener la extensión .php.
 - La etiqueta de cierre de PHP ?> tiene que ser lo último de la línea en la que se encuentre. Cuando el servidor encuentra esta etiqueta, ignora el resto de la línea. Por este motivo, después de la marca de cierre de PHP habrá que incluir un salto de línea.
 - Las instrucciones PHP finalizan con " ; ".
@@ -33,7 +35,7 @@ print("Hello World!");
 
 ### Variables:
 
-- Una característica de PHP es que el programador no indica de qué tipo son las variables, sino que se decide en tiempo de ejecución. No obstante, se puede consultar el tipo de una variable (**gettype / is_**unTipo) o forzar la conversión a un tipo concreto **(settype)**.
+- Una característica de PHP es que el programador no indica de qué tipo son las variables, sino que se decide en tiempo de ejecución. No obstante, se puede consultar el tipo de una variable (**gettype / is\_**unTipo) o forzar la conversión a un tipo concreto **(settype)**.
 
 - **Declarar variables:** se hace antecediendo el símbolo del dólar **$** al nombre de variable que vamos a usar. Los nombres de las variables son sensibles a mayúsculas y minúsculas.
 
@@ -48,14 +50,14 @@ print("Hello World!");
 ### Variable predefinidas:
 
 - $GLOBALS: indica las variables disponibles de ámbito global.
-- $_SERVER: información del servidor.
-- $_GET: variables HTTP GET.
-- $_POST: variables HTTP POST.
-- $_FILES: variables de carga de archivos HTTP.
-- $_REQUEST: variables HTTP Request.
-- $_SESSION: variables de sesión.
-- $_ENV: variables de entorno.
-- $_COOKIE: cookies HTTP.
+- $\_SERVER: información del servidor.
+- $\_GET: variables HTTP GET.
+- $\_POST: variables HTTP POST.
+- $\_FILES: variables de carga de archivos HTTP.
+- $\_REQUEST: variables HTTP Request.
+- $\_SESSION: variables de sesión.
+- $\_ENV: variables de entorno.
+- $\_COOKIE: cookies HTTP.
 - $php_errormsg: último mensaje de error.
 - $HTTP_RAW_POST_DATA: datos POST sin tartar.
 - $http_response_header: encabezados de la respuesta HTTP.
@@ -67,6 +69,7 @@ print("Hello World!");
     define("PI", 3.1416);
 
 ### Constantes predefinidas:
+
 ```
 __LINE__	El número de línea actual en el fichero.
 __FILE__	Ruta completa y nombre del fichero con enlaces simbólicos resueltos. Si se usa dentro de un include, devolverá el nombre del fichero incluido.
@@ -77,6 +80,8 @@ __TRAIT__	El nombre de el trait. El nombre del trait incluye el namespace si alg
 __METHOD__	Nombre del método de la clase.
 __NAMESPACE__	Nombre del espacio de nombres actual.
 ```
+
+#### Ejemplos:
 
 ```
 $varNumerica = 0;   //Operador de asignación con variable entera
@@ -93,4 +98,30 @@ Operador ternario: Su equivalente a un condicional
 if ( $varBooleana == true ) $res = 1;
 else $res = 0;
 ------*/
+
+$varBooleana == true ? $res = 1: $res = 0;
+
+/*-- Operador de ejecución --*/
+$directorios = `ls –la`;
+
+
+```
+
+#### Uso de print:
+
+```
+<?PHP
+print(‘<h1 class=”portada”>¡Bienvenidos! </h1>’);
+
+?>
+```
+
+#### Uso de heredoc:
+
+```
+<?PHP
+$texto = “¡Bienvenidos!”;
+echo <<<EOT
+<h1 class=”portada”> $texto </h1>;
+EOT; ?>
 ```
