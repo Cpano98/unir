@@ -13,9 +13,9 @@ No son un lenguaje de programación -> Permiten que puedan escribirse en cualqui
 
 PHP Hypertext Preprocessor
 ```
-    <?PHP
-    print("Hello World!");
-    ?>
+<?PHP
+print("Hello World!");
+?>
 ```
 
 ### Notas:
@@ -67,7 +67,7 @@ PHP Hypertext Preprocessor
     define("PI", 3.1416);
 
 ### Constantes predefinidas:
-
+```
 __LINE__	El número de línea actual en el fichero.
 __FILE__	Ruta completa y nombre del fichero con enlaces simbólicos resueltos. Si se usa dentro de un include, devolverá el nombre del fichero incluido.
 __DIR__	Directorio del fichero. Si se utiliza dentro de un include, devolverá el directorio del fichero incluído. Esta constante es igual que dirname(__FILE__). El nombre del directorio no lleva la barra final a no ser que esté en el directorio root.
@@ -76,6 +76,7 @@ __CLASS__	Nombre de la clase. El nombre de la clase incluye el namespace declara
 __TRAIT__	El nombre de el trait. El nombre del trait incluye el namespace si alguno fué declarado en (p.e.j. Foo\Bar).
 __METHOD__	Nombre del método de la clase.
 __NAMESPACE__	Nombre del espacio de nombres actual.
+```
 
 ```
 $varNumerica = 0;   //Operador de asignación con variable entera
