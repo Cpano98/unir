@@ -77,3 +77,19 @@ __TRAIT__	El nombre de el trait. El nombre del trait incluye el namespace si alg
 __METHOD__	Nombre del método de la clase.
 __NAMESPACE__	Nombre del espacio de nombres actual.
 
+```
+$varNumerica = 0;   //Operador de asignación con variable entera
+$totalNum = $varNumerica + 3; //Operador suma
+$otroTotal = $totalNum % 2;   //Operador módulo
+$otroTotal += $totalNum;   //Operador suma y asignación
+$varBooleana = 3 == 4;  //Operador asignación + comparación
+$otraBooleana = !$varBooleana;   //Operador asignación + negación
+$varBooleana = 3 == 4;  //Operador asignación + comparación
+$otraBooleana = !$varBooleana;   //Operador asignación + negación
+$varBooleana = $totalNum > 1;   //Operador asignación + comparación
+/* -----
+Operador ternario: Su equivalente a un condicional
+if ( $varBooleana == true ) $res = 1;
+else $res = 0;
+------*/
+```
