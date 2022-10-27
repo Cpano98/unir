@@ -32,4 +32,23 @@ La perspectiva técnica se encarga del cómo hay que proteger desde el punto de 
 Por otro lado, es importante resaltar que la seguridad es un proceso continuo de mejora y no un estado de un sistema, por lo que las políticas y controles establecidos para la protección de la información deberán revisarse y adecuarse, de ser necesario, ante los nuevos riesgos que se identifiquen.
 ```
 
+## Atributos:
 
+- Confidencialidad / revelación: La privacidad es quizá el aspecto que se menciona con más frecuencia en cuanto a la confidencialidad. La privacidad de la información personal es un derecho protegido por regulaciones internacionales y nacionales, pero no es más que una de las caras de la confidencialidad. **Es la propiedad de prevenir la revelación y divulgación intencionada o no de la información a personal no autorizado**
+- Disponibilidad / alteración: **Es la propiedad que busca mantener los datos libres de modificaciones no autorizadas**
+- Integridad / destrucción: **Cualidad o condición de la información de encontrarse a disposición de quienes deben acceder a ella como usuarios autorizados**
+
+## Costos básicos:
+
+- Coste de construcción de las medidas defensivas, incluyendo la configuración de firewalls, sistemas redundantes, IDS, etc.
+
+- Coste de reparación de vulnerabilidades. En una configuración simple, esto puede consistir en mantener el software actualizado con los últimos parches, pero en ocasiones esto no es suficiente, y hace falta un esfuerzo proactivo en buscar vulnerabilidades potenciales según aparecen.
+
+
+La seguridad de la información es un **proceso.**
+
+```
+La gestión de la seguridad implica la identificación de activos de información y el desarrollo, documentación e implementación de políticas, normas, procedimientos y directrices que garanticen su disponibilidad, integridad y confidencialidad.
+
+Las herramientas de gestión (como la clasificación de datos, la formación de concienciación sobre seguridad, la evaluación de riesgos y el análisis de riesgos) se utilizan para identificar las amenazas, clasificar los activos y su vulnerabilidad para establecer controles de seguridad eficaces.
+```
