@@ -32,7 +32,7 @@ Estudio de métodos y herramientas que se pueden utilizar para producir **softwa
 6. Los productos fabricados presentan un carácter **continuo**, es decir, pequeñas modificaciones en un producto producirán pequeños cambios en el **comportamiento**.
 7. Los productos software suelen tener un carácter **discreto**, es decir, pequeñas modificaciones en un producto software pueden desencadenar una gran cantidad de **efectos colaterales** que podrían producir cambios **impredecibles** e **incontrolados** en su comportamiento.
 
-##  Responsabilidades de un Ing. Software:
+## Responsabilidades de un Ing. Software:
 
 1. **Conocer el dominio de la aplicación** para poder definir y documentar los requisitos que se han de satisfacer de una manera precisa, bien organizada y que se pueda consultar con facilidad.
 2. **Participar en el diseño** de la configuración de los sistemas para determinar qué funcionalidad será llevada a cabo a través del hardware y qué funcionalidad será implementada a través del software.
@@ -86,6 +86,81 @@ Existen cuatro actividades fundamentales que son comunes para todos los procesos
 3. **Validación del software.** El software se valida para comprobar que es correcto, es decir, hace lo que el cliente había solicitado. La validación se lleva a cabo teniendo en cuenta los requisitos de usuario.
 4. **Evolución del software.** El software se modifica para adaptarse a los cambios requeridos por el cliente o por el mercado.
 
+### Toma de requisitos:
+
+Obtención, análisis, especificación y validación de los requisitos de software, así como a la gestión de los requisitos durante todo el ciclo de vida del producto de software.
+
+    Los requisitos de software expresan las necesidades y restricciones/limitaciones que se imponen a un producto de software que se quiere construir para dar solución a algún problema del mundo real.
+
+### Proceso de diseño:
+
+Definir la arquitectura, los componentes, las interfaces y otras características de un sistema o componente.
+
+### Proceso de construcción:
+
+Creación detallada de software de trabajo mediante una combinación de codificación, verificación, prueba de unidad, prueba de integración y depuración.
+
+### Proceso de pruebas:
+
+Consisten en la verificación dinámica de que un programa proporciona el comportamiento esperado.
+
+    Las pruebas de software están, o deberían estar, generalizadas a lo largo de todo el ciclo de vida de desarrollo y mantenimiento.
+
+### Proceso de mantenimiento:
+
+Actividades requeridas para proporcionar un soporte rentable al software.
+
+# Modelo de proceso de desarrollo de software:
+
+    Un modelo de proceso de desarrollo de software es una descripción simplificada de un proceso de desarrollo de software real.
+
+## Modelos de procesos prescriptivos
+
+### Modelo en cascada:
+
+Una fase no puede comenzar hasta no haber finalizado (aprobado) la anterior. Desgraciadamente, este modelo de proceso resulta poco realista, ya que difícilmente se van a encontrar proyectos software reales que se ajusten a este tipo de modelo de proceso de manera tan rigurosa.
+
+### Modelo Incremental:
+
+Está orientado a construir versiones incrementales del producto, de manera que el software funcional llegue cuanto antes al cliente y este pueda dar una retroalimentación.
+
+### Modelo evolutivo:
+
+Se trata de ir mejorando el software de manera progresiva e iterativa, al mismo tiempo que se profundiza en su comprensión, empleando herramientas como la construcción de prototipos. Un modelo evolutivo es el modelo en espiral.
+
+- **Establecimiento de los objetivos**, donde se definen los objetivos específicos para cada fase del proyecto.
+- **Evaluación y reducción de riesgos**, donde se lleva a cabo un análisis detallado de cada uno de los riesgos del proyecto que se hayan identificado.
+- **Desarrollo y validación**, donde, una vez que se ha llevado a cabo la evaluación de riesgos, se selecciona una técnica de desarrollo para el sistema (por ejemplo, el modelo en cascada podría ser el desarrollo más apropiado si el riesgo identificado más relevante es la integración de subsistemas).
+- **Planificación**, donde se revisa el proyecto y se toma la decisión de si se ha de continuar con un nuevo bucle de la espiral. Si se decide continuar, entonces se planifica la siguiente fase del proyecto.
+
+## Modelos de procesos especializados:
+
+### Desarrollo basado en componentes:
+
+En todo proceso de desarrollo se realiza algún tipo de reutilización, aunque sea de manera informal. Hoy en día cada vez es más necesaria la aplicación de técnicas de reutilización (y posible, dada la gran variedad de código disponible), sobre todo cuando pensamos en sistemas grandes y complejos.
+
+Bajo esta perspectiva, el modelo de ingeniería de software basada en componentes (Component-Based Software Engineering, CBSE), orientado a la reutilización, se basa en la existencia de un número significativo de componentes reutilizables. CBSE define una arquitectura de colaboración e implementa el código necesario para que los componentes funcionen unos con otros.
+
+Un componente software es un fragmento de código que encapsula un conjunto de funcionalidades específicas, y relacionadas entre sí, que se exponen a través de interfaces estandarizadas, de manera que se facilita su reutilización.
+
+### Modelo de métodos formales:
+
+Se trata de una variación del modelo en cascada que parte de una representación y un modelado muy precisos, en lenguaje matemático, del sistema que se va a desarrollar.
+
+Según Sommerville (2011), «son apropiados en sistemas con fuertes requisitos de seguridad, fiabilidad o protección» (p. 32). El objetivo es lograr un producto libre de defectos, precisando para ello de un gran consumo de tiempo y recursos, y de unas capacidades específicas de los desarrolladores. Además, esta especificación formal dificulta la comunicación con el cliente (Pressman, 2010).
+
+## Stakeholders:
+
+Un stakeholder es cualquier persona o colectivo que tiene algún tipo de interés o participación en el desarrollo de un nuevo producto o servicio, o en el propio proyecto.
+
+**O bien:** Un stakeholder es una persona, grupo u organización que está involucrada en el proyecto, resulta afectada por el proceso o su resultado, o puede influir en el proceso o su resultado.
+
+1. **El cliente** es «la organización o el individuo que ha solicitado la construcción de un producto y lo recibirá finalmente» (NASA, 2017, p. 179). Es la figura que solicita el desarrollo, paga por él, selecciona sus características, y recibirá o utilizará el producto generado. No siempre coincide con el patrocinador, que es el encargado de financiar el desarrollo. Se suele incluir dentro de este grupo a usuarios directos e indirectos, patrocinadores ejecutivos y compradores.
+    - Usuarios DIRECTOS (trabajan directamente con el producto).
+    - Usuarios INDIRECTOS (se beneficiarán indirectamente del producto).
+2. **Otras partes interesadas:**grupos o individuos que no son clientes directos, pero pueden ser afectados de algún modo por el producto resultante, por la manera en que el producto es realizado o utilizado, o tienen alguna responsabilidad proporcionando servicios durante el ciclo de vida del producto
+
+
 ## En clase:
 
 La Ing. de Software surge debido a los requisitos del usuario y entorno:
@@ -95,5 +170,3 @@ Considerar:
 1. Alcance del software
 2. Escalabilidad
 3. Costos
-
-
