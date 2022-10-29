@@ -43,4 +43,9 @@ Tres perspectivas distintas:
 **Métrica V.3**
 
 Desde una estructura unificada cubre el desarrollo estructurado orientado a objetos y facilita, mediante interfaces, procesos de apoyo como la gestión de proyectos y el aseguramiento de la calidad y la seguridad.
+<<<<<<< Updated upstream
 ![Ventajas Metrica V.3](/metodologias-software/notas/Fotos/Mv3-Ventajas.png)
+=======
+
+![Ventajas Metrica V.3](/metodologias-software/notas/Fotos/Mv3-Ventajas.png)
+>>>>>>> Stashed changes
