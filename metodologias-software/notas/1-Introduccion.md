@@ -69,3 +69,31 @@ Estudio de métodos y herramientas que se pueden utilizar para producir **softwa
 **La dificultad para satisfacer las necesidades del cliente (¿problemas de incomunicación?), unida a la complejidad del software y a sus constantes cambios y evolución, tanto en fase de desarrollo como una vez entregado, hacen de la tarea de desarrollar productos software un proceso arduo y muy costoso (una gran parte del presupuesto en informática se debe a las modificaciones en el software ya implementado y desplegado).**
 
 ## Proceso de desarrollo de Software:
+
+La ejecución de cualquier proceso de desarrollo de software comprende un conjunto de actividades que generan artefactos de dos tipos diferentes:
+
+- Artefactos internos del proceso de desarrollo.
+- Artefactos entregables al cliente.
+
+Un artefacto se puede definir como toda pieza de información que se utiliza o se produce en un proceso de desarrollo de software.
+
+    Requisitos de usuario -> Proceso de desarrollo de software -> Producto software
+
+Existen cuatro actividades fundamentales que son comunes para todos los procesos de desarrollo de software:
+
+1. **Especificación del software.** Clientes e ingenieros definen el software a construir junto con sus restricciones.
+2. **Desarrollo del software.** El software se diseña y se implementa, a la vez que se verifica que se construye de manera correcta.
+3. **Validación del software.** El software se valida para comprobar que es correcto, es decir, hace lo que el cliente había solicitado. La validación se lleva a cabo teniendo en cuenta los requisitos de usuario.
+4. **Evolución del software.** El software se modifica para adaptarse a los cambios requeridos por el cliente o por el mercado.
+
+## En clase:
+
+La Ing. de Software surge debido a los requisitos del usuario y entorno:
+
+Considerar:
+
+1. Alcance del software
+2. Escalabilidad
+3. Costos
+
+
