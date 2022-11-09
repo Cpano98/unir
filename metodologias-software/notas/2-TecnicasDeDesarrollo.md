@@ -45,3 +45,4 @@ Tres perspectivas distintas:
 Desde una estructura unificada cubre el desarrollo estructurado orientado a objetos y facilita, mediante interfaces, procesos de apoyo como la gestión de proyectos y el aseguramiento de la calidad y la seguridad.
 
 ![Ventajas Metrica V.3](/metodologias-software/notas/Fotos/Mv3-Ventajas.png)
+![Metodlogia V.3](/metodologias-software/notas/Fotos/MetodologiaV3.png)
