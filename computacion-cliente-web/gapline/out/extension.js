@@ -24,8 +24,10 @@ function activate(context) {
             });
             text = textInChunks.join("\n"); //Junta nuestro nuevo array con salto de línea "\n"
             editor.edit((editBuilder) => {
-                var range = new vscode.Range(selection.start.line, 0, selection.end.line, editor.document.lineAt(selection.end.line).text.length);
-                editBuilder.replace(range, text);
+                var range = new vscode.Range(selection.start.line, 0, selection.end.line, //Comienza en Index 0
+                editor.document.lineAt(selection.end.line).text.length //último elemento
+                );
+                editBuilder.replace(range, text); //Siguiente línea a iterar
             });
         });
     });
