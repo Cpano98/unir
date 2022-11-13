@@ -13,26 +13,39 @@
         .hei-25 {
             height: 25px;
         }
+
+        .hei-10 {
+            height: 10px;
+        }
     </style>
 </head>
 
 <body>
 
+    <!-- Just an image -->
+    <nav class="navbar navbar-light bg-light mb-5">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://mexico.unir.net/wp-content/uploads/sites/6/2018/07/Unir_2021_logo.svg" width="200"
+                    height="auto" alt="">
+            </a>
+        </div>
+    </nav>
+
     <div class="container">
         <h1><strong>Trabajo: Creación de una extensión para Visual Studio Code</strong></h1>
         <p><strong>Nombre del alumno:</strong> Carlos Pano Hernández</p>
-        <div class="alert alert-primary" role="alert">
+        <div class="alert alert-primary mb-5" role="alert">
             <strong>Descripción del trabajo:</strong><br>
             Para esta actividad, se propone realizar una extensión de Visual Studio Code, con el objetivo de practicar
             la programación en Javascript (y conocer de paso TypeScript).
             Dicha extensión, ejecutará <strong>n</strong> saltos de línea al contenido de cualquier archivo.
         </div>
-        <div class="hei-25"></div>
 
         <h2>Proceso de desarrollo</h2>
         <ol>
             <li>Se comenzó con la instalación de las paqueterías:
-                <ul>
+                <ul class="mb-4">
                     <li>
                         <strong> "Yeoman":</strong> Nos permite generar el esqueleto inicial de un proyecto web.
                     </li>
@@ -41,12 +54,47 @@
                     </li>
                 </ul>
 
-                <img src="public/images/Inst-paqueterias.png" class="img-fluid rounded mx-auto d-block" alt="Responsive image">
+                <p>Se instalaron en nuestro sistema de manera global:
+                </p>
+                <div class="alert alert-info" role="alert">
+                    <code>npm install -g yo generator-code typescript</code>
+                </div>
+
+                <img src="public/images/Inst-paqueterias.png" class="img-fluid rounded mx-auto d-block m-5"
+                    alt="Responsive image">
+
             </li>
 
-            <li>Hola</li>
+            <li>Terminada la instalación, se procedió con la configuración inicial de nuestra extensión: "gapline"
+                <div class="row mt-4 mb-4">
+                    <div class="col">
+                        <img src="public/images/yo-code.png" class="img-fluid rounded mx-auto d-block"
+                            alt="Responsive image">
+                    </div>
+                    <div class="col">
+                        <h4>Misma configuración que se traduce en el siguiente archivo JSON:</h4>
+                        <div class="alert alert-info" role="alert">
+                            <pre><code>
+{
+"name": "gapline",
+"displayName": "Line Gapper",
+"description": "Create a gap between lines",
+"version": "0.0.1",
+"engines": {
+"vscode": "^1.73.0"
+},
+                            </code></pre>
+                        </div>
 
+                        <a class="btn btn-dark"
+                            href="https://github.com/Cpano98/unir/blob/main/computacion-cliente-web/gapline/package.json"
+                            role="button" target="_blank">Ver package.json file</a>
 
+                    </div>
+                </div>
+            </li>
+
+            <li>Co</li>
 
         </ol>
     </div>
