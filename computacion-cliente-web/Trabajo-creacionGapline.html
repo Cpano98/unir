@@ -172,7 +172,91 @@ export function deactivate() {} //Extension in deactivated: Calls this function 
         </ol>
 
         <h2>Pruebas de funcionamiento</h2>
-        <p>Una vez terminada la creación de nuestra extensión, se realizaron las pruebas correspondientes con diferentes "n" en un archivo MD:</p>
+
+        <p>Una vez terminada la creación de nuestra extensión, se realizaron las pruebas correspondientes con diferentes
+            "n" en un archivo MD. Se inicia la extensión en nuestro entrono de pruebas, y vemos como se le pide a
+            nuestro usuario el número de líneas: </p>
+        <img src="public/images/Gapline.png" class="img-fluid rounded mx-auto d-block m-4" alt="Responsive image">
+
+        <p>A continuación se presenta una tabla con los distintos valores de "n":</p>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">n</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Result</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>A partir de nuestro text original, podemos obervar que la extensión recorre cada línea y hace un salta cada una de ellas. Esto debido a n=1.</td>
+                    <td>
+                        <img src="public/images/1.png" class="img-fluid rounded mx-auto d-block"
+                            alt="Responsive image">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">2</th>
+                    <td>El salto se realiza cada dos líneas, dejando un espacio entre ellas.</td>
+                    <td>
+                        <img src="public/images/2.png" class="img-fluid rounded mx-auto d-block"
+                            alt="Responsive image">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Vemos el mismo patrón, solo cada 3 oraciones. El texto se copió 3 veces, por lo que este es el formato correcto.</td>
+                    <td>
+                        <img src="public/images/3.png" class="img-fluid rounded mx-auto d-block"
+                            alt="Responsive image">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Vemos el texto original seccionado cada 4 líneas.</td>
+                    <td>
+                        <img src="public/images/4.png" class="img-fluid rounded mx-auto d-block"
+                            alt="Responsive image">
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+
+        <div class="alert alert-warning" role="alert">
+            Nótese que el texto debe estar seleccionado debido a nuestra funcíon:
+            <code>var selection = editor.selection;</code>
+            en el programa.
+          </div>
+
+          <h2 class="mt-5">Entendiendo a profundidad el código: </h2>
+          <p>Se enlistan a continuación las funciones identificadas en "extension.ts" propuesto por el profesor: </p>
+
+          <div class="card-deck">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+            </div>
+          </div>
     </div>
 
 
