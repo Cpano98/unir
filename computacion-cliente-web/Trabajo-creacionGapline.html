@@ -240,20 +240,61 @@ export function deactivate() {} //Extension in deactivated: Calls this function 
           <div class="card-deck">
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <h5 class="card-title">active()</h5>
+                <p class="card-text">Provee a VS Code un 'estado' de referencia que indica que el usuario activó dicha extensión. Acorde a nuestro código, la función retorna el compartamiento estándar de la misma. En poca palabras, un switch de encendido.</p>
               </div>
             </div>
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <h5 class="card-title">deactive()</h5>
+                <p class="card-text">Caso contrario de la función "Active". Retorna ningún comportamiento debido a que el usario tiene la extensión desactiva.</p>
               </div>
             </div>
             <div class="card">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <h5 class="card-title">registerCommand()</h5>
+                <p class="card-text">Se indica el nombre de la extnsión a nivel código. Este mismo debe ser igual al paquete de configuración para que la extnsión sea llamada correctamente.</p>
+              </div>
+            </div>
+          </div>
+          <div class="card-deck mt-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">getText("")</h5>
+                <p class="card-text">Guarda el contenido del objeto en cuestión para ser llamado en acciones posteriores.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">editor.selection</h5>
+                <p class="card-text">Provee la capacidad obtener el texto que nuestro editor ha seleccionado.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">showInputBox()</h5>
+                <p class="card-text">Función de VS Code que muestra un "input field" para obtener datos de nuestro usuario. Para este caso, el número de líneas a saltar.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-deck mt-4">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">forEach()</h5>
+                <p class="card-text">Itera sobre todos los objetos de un array.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">push()</h5>
+                <p class="card-text">Agrega valor a un stack de datos.</p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">vscode.Range()</h5>
+                <p class="card-text">Método parecido A for each. Itera sbre cadenas de datos completas</p>
               </div>
             </div>
           </div>

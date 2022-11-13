@@ -3,12 +3,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.deactivate = exports.activate = void 0;
 // The module 'vscode' contains the VS Code extensibility API
 const vscode = require("vscode"); // Import the module and reference it with the alias vscode in your code below
-// This method is called when your extension is activated
 function activate(context) {
     // Your extension is activated the very first time the command is executed
     let disposable = vscode.commands.registerCommand("extension.gapline", () => {
         var editor = vscode.window.activeTextEditor; //Inicializa el editor de texto
-        if (!editor) {
+        if (!editor) { //En caso que no exista una sesión de edición abierta
             return;
         }
         var selection = editor.selection; //Estado de nuestro usuario: selección. El programa recorrerá solo el texto seleccionado

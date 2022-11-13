@@ -3,12 +3,11 @@
 // The module 'vscode' contains the VS Code extensibility API
 import * as vscode from "vscode"; // Import the module and reference it with the alias vscode in your code below
 
-// This method is called when your extension is activated
-export function activate(context: vscode.ExtensionContext) {
+export function activate(context: vscode.ExtensionContext) {// This method is called when your extension is activated
   // Your extension is activated the very first time the command is executed
-  let disposable = vscode.commands.registerCommand("extension.gapline", () => {
+  let disposable = vscode.commands.registerCommand("extension.gapline", () => {//Comando para llamar extensión. Se debe de cambiar en el package
     var editor = vscode.window.activeTextEditor; //Inicializa el editor de texto
-    if (!editor) {
+    if (!editor) {//En caso que no exista una sesión de edición abierta
       return;
     }
     var selection = editor.selection; //Estado de nuestro usuario: selección. El programa recorrerá solo el texto seleccionado
@@ -28,8 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
       text = textInChunks.join("\n"); //Junta nuestro nuevo array con salto de línea "\n"
       editor.edit((editBuilder) => {
         var range = new vscode.Range(
-          selection.start.line,
-          0,
+          selection.start.line,0,
           selection.end.line,
           editor.document.lineAt(selection.end.line).text.length
         );
