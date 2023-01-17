@@ -1,0 +1,81 @@
+## Array
+
+    const unArray = [];
+    const unArray = new Array();
+
+Los datos básicos se manejan como valores independientes (varias variables tienen una copia personal de un mismo dato), pero los objetos se manejan por referencia, de manera que varias variables pueden apuntar a un mismo pedazo de información.
+
+## Conjunto
+Un conjunto o set es una estructura que representa una colección de valores únicos (no pueden repetirse).
+
+    const conjunto = new Set();
+
+    conjunto.add(10); // Devuelve Set { 10 }
+
+Los sets son también objetos.
+
+    const conjunto2 = new Set([10, 20, 30]);
+
+Si inicializamos un set con una cadena de texto, se nos devuelve un set cuyos elementos son cada una de las letras de dicha cadena de texto:
+
+    const holaSet = new Set("hola"); // Devuelve Set { "h", "o", "l", "a" }
+
+    const setDePalabras = new Set().add("Einstein").add("Schrödinger"); // Devuelve Set { "Einstein", "Schrödinger"}
+
+
+## Maps
+
+    const nobelesFisica = new Map();
+    .set(clave, valor)  
+
+    nobelesFisica.set(1921, "Einstein");
+
+    const nobelesQuimica = new Map([[1908, 1911], ["Rutherford", "Curie"]]);
+
+## El operador ternario (?:)
+
+    condición ? codido a ejecutar si condición es verdadera : codido a ejecutar si condición es falsa;
+
+    edad < 78 ? console.log("Se cumple condición") : console.log("No se cumple condición");
+
+## Bucles while
+
+```
+let edad = 5;
+while (edad > 0) {
+console.log(`Cada vez soy más joven. Ahora tengo ${edad} años`);
+edad--;
+}
+console.log(`Una edad de ${edad} años es imposible!`);
+```
+
+## Bucles for
+
+for (inicialización ; condición; avance) {
+código
+…
+}
+
+```
+for (let edad = 5 ; edad > 0; edad--) {
+console.log(`Cada vez soy más joven. Ahora tengo ${edad} años`);
+}
+```
+
+### Recorrido de arrays
+```
+const nombresFisicos = ["Einstein", "Pauli"];
+for (let i = 0 ; i <= nombresFisicos.length ; i++) {
+console.log(nombresFisicos[i]);
+}
+```
+
+
+
+
+
+
+
+
+
+
