@@ -1,0 +1,20 @@
+{
+  "name": "chuckapp",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Carlos Pano H. <carlospano8@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Cpano98/unir",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "chuck-norris-joke": "^1.2.0"
+  }
+}
